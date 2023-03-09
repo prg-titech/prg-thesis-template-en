@@ -357,7 +357,7 @@ KOMA-script documentation for details.}]{fancyhdr}
 	\DeclareDocumentEnvironment{abstract}{ O{\null\vfill} }{
 		\checktoopen
 		\tttypeout{\abstractname}
-		#1%added to be able to have abstract more than one page long
+		% #1%added to be able to have abstract more than one page long
 		\thispagestyle{plain}
 		\begin{center}
 			{\normalsize \MakeUppercase{\univname} \par}% University name in capitals
@@ -383,7 +383,7 @@ KOMA-script documentation for details.}]{fancyhdr}
 \DeclareDocumentEnvironment{extraAbstract}{ O{\null\vfill} }{
 	\checktoopen
 	\tttypeout{\abstractname}
-	#1%added to be able to have abstract more than one page long
+	% #1%added to be able to have abstract more than one page long
 	\thispagestyle{empty}
 	\begin{center}
 		{\normalsize \MakeUppercase{\univname} \par}% University name in capitals
